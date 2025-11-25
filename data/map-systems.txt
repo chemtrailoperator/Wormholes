@@ -10,3 +10,422 @@
 #
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
+
+system "Olympus"
+	pos 1500 0
+	government "Drak"
+	attributes command
+	arrival 700
+	departure 1000
+	habitable 700
+	belt 1245
+	object
+		sprite star/nova-small
+		period 10
+	object "Gate: Sol"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+	object "Gate: Ya Hai"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 20
+	object "Gate: Ki War Ek"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object "Gate: Concerto"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object "Gate: Heutesl"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
+	object "Gate: Erabu Lemeta"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 100
+	object "Gate: Ka'ch'chrai"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 120
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 140
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 160
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 180
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 200
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 220
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 240
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 260
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 280
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 300
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 320
+	object 
+		sprite planet/ringworld
+			scale 0.5
+		scale 0.5
+		distance 812
+		period 349.820
+		offset 340
+
+system "Hub: Sol"
+	pos -420 80
+	government Drak
+	attributes capital command
+	arrival 700
+	departure 1000
+	habitable 700
+	belt 1245
+	object
+		sprite star/nova-small
+		period 10
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 240
+	object
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 260
+	object
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 280
+	object "Gate: Sol"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 300
+	object
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 320
+	object 
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 340
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+
+system "Hub: Ya Hai"
+	pos -44.9453 -505.571
+	government "Drak"
+	attributes capital command
+	arrival 700
+	departure 1000
+	habitable 700
+	belt 1245
+	object
+		sprite star/nova-small
+		period 10
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+	object "Gate: Ya Hai"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 20
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
+
+system "Hub: Ki War Ek"
+	pos -1086.63 338.214
+	government "Drak"
+	attributes capital command
+	arrival 700
+	departure 1000
+	habitable 700
+	belt 1245
+	object
+		sprite star/nova-small
+		period 10
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+	object
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 20
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object "Gate: Ki War Ek"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
+	object
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 100
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 120
+
+system "Hub: Concerto"
+	pos -453 1331
+	government "Drak"
+	attributes capital command
+	arrival 700
+	departure 1000
+	habitable 700
+	belt 1245
+	object
+		sprite star/nova-small
+		period 10
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+	object "Gate: Concerto"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 20
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+
+system "Hub: Erabu Lemeta"
+	pos 284.9 -111.3
+	government "Drak"
+	attributes capital command
+	arrival 700
+	departure 1000
+	habitable 700
+	belt 1245
+	object
+		sprite star/nova-small
+		period 10
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+	object "Gate: Erabu Lemeta"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 20
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
+
+system "Hub: Heutesl"
+	pos 851.8 -651.53
+	government "Drak"
+	attributes capital command
+	arrival 700
+	departure 1000
+	habitable 700
+	belt 1245
+	object
+		sprite star/nova-small
+		period 10
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+	object "Gate: Heutesl"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 20
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
+
+system "Hub: Ka'ch'chrai"
+	pos -260.163 -827.448
+	government "Drak"
+	attributes capital command
+	arrival 700
+	departure 1000
+	habitable 700
+	belt 1245
+	object
+		sprite star/nova-small
+		period 10
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+	object "Gate: Ka'ch'chrai"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 20
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
