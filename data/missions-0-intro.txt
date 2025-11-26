@@ -80,7 +80,7 @@ mission "Wormholes 0.1"
 			`	He'll probably be fine.`
 				defer
 	on enter "Gamma Corvi"
-		payment 50000
+		payment 30000
 		conversation
 			`	You got to know the man quite a bit along the way, you even regret a little that your trip is coming to an end so quickly.`
 	
