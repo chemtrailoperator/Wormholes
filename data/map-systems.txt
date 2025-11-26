@@ -23,12 +23,12 @@ system "Olympus"
 	object
 		sprite star/nova-small
 		period 10
-	object "Gate: Sol"
+	object "Gate: Sol Unlocked"
 		sprite planet/jumpring
 			scale 0.5
 		distance 812
 		period 349.820
-	object
+	object Mons
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -40,7 +40,7 @@ system "Olympus"
 		distance 812
 		period 349.820
 		offset 40
-	object
+	object Mons
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -52,7 +52,7 @@ system "Olympus"
 		distance 812
 		period 349.820
 		offset 80
-	object
+	object Mons
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -64,7 +64,7 @@ system "Olympus"
 		distance 812
 		period 349.820
 		offset 120
-	object
+	object Mons
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -76,7 +76,7 @@ system "Olympus"
 		distance 812
 		period 349.820
 		offset 160
-	object
+	object Mons
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -88,7 +88,7 @@ system "Olympus"
 		distance 812
 		period 349.820
 		offset 200
-	object
+	object Mons
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -100,7 +100,7 @@ system "Olympus"
 		distance 812
 		period 349.820
 		offset 240
-	object
+	object Mons
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -112,19 +112,19 @@ system "Olympus"
 		distance 812
 		period 349.820
 		offset 280
-	object
+	object Mons
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 300
-	object
+	object Mons
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 320
-	object 
+	object Mons
 		sprite planet/ringworld
 			scale 0.5
 		scale 0.5
@@ -156,7 +156,7 @@ system "Hub: Sol"
 		distance 812
 		period 349.820
 		offset 240
-	object "Gate: Gamma Corvi"
+	object "Gate: Gamma Corvi Unlocked"
 		sprite planet/jumpring
 			scale 0.5
 		distance 812
@@ -168,7 +168,7 @@ system "Hub: Sol"
 		distance 812
 		period 349.820
 		offset 280
-	object "Gate: Sol"
+	object "Gate: Sol Unlocked"
 		sprite planet/jumpring
 			scale 0.5
 		distance 812
@@ -467,7 +467,7 @@ system "Terminal: Gamma Corvi"
 			scale 0.5
 		distance 812
 		period 349.820
-	object "Gate: Gamma Corvi"
+	object "Gate: Gamma Corvi Unlocked"
 		sprite planet/jumpring
 			scale 0.5
 		distance 812
