@@ -20,7 +20,7 @@ mission "Wormholes 0.1"
 	source
 		attributes planet
 		not attributes uninhabited
-		government "Free Worlds" Republic Syndicate
+		government "Free Worlds" "Republic" "Syndicate"
 	to offer
 		has "Avgi: First Contact: done"
 #		has "First Contact: Bunrodea (Hostile): done"
