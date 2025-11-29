@@ -192,13 +192,13 @@ mission "Wormholes 0.2"
 				decline
 	on accept
 		event "Reveal Gamma Corvi Route"
-#		outfit "Galactic Temprorary Passkey"
+#		outfit "Galactic Temporary Passkey"
 	on enter "Terminal: Gamma Corvi"
-		dialog `A pug ship hails you and isntructs you to enter the wormhole.`
+		dialog `A pug ship hails you and instructs you to enter the wormhole.`
 	on enter "Hub: Sol"
 		dialog `The wormhole takes you to a system that contains a few more wormholes. You only have access to one.`
 	on enter "Olympus"
-		dialog `You enter the system tos ee a massive ringworl with a large number of sections that appear to be holding wormholes. You receive a hail telling you to land on the ringworld.`
+		dialog `You enter the system to see a massive ringworld with a large number of sections that appear to be holding wormholes. You receive a hail telling you to land on the ringworld.`
 	on complete
 		event "all wormholes revealed"
 		outfit "Quantum Keystone"
