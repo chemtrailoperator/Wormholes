@@ -1,0 +1,5 @@
+name "Wormholes"
+about "Become a galactic diplomat with access to a web of wormholes with access to anywhere."
+authors
+	chemtrailoperator
+	living_adblocker
