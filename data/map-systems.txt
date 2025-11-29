@@ -21,7 +21,7 @@ system "Olympus"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite "star/patir core"
 		period 10
 	object "Gate: Sol"
 		sprite planet/jumpring
@@ -141,7 +141,7 @@ system "Hub: Sol"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/g0
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -207,7 +207,7 @@ system "Hub: Ya Hai"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/k8
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -249,7 +249,7 @@ system "Hub: Ki War Ek"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/g3
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -302,8 +302,9 @@ system "Hub: Concerto"
 	departure 1000
 	habitable 700
 	belt 1245
+	haze _menu/haze-67
 	object
-		sprite star/nova-small
+		sprite star/a5
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -333,7 +334,7 @@ system "Hub: Kashikt"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/a0
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -363,7 +364,7 @@ system "Hub: Erabu Lemeta"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/b3
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -405,7 +406,7 @@ system "Hub: Heutesl"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/f3
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -447,7 +448,7 @@ system "Hub: Ka'ch'chrai"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/m4
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -489,8 +490,12 @@ system "Terminal: Gamma Corvi"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/k8
 		period 10
+		object
+			sprite star/g3
+			distance 80
+			period 100
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
@@ -519,8 +524,12 @@ system "Terminal: Epsilon Leonis"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/k8
 		period 10
+		object
+			sprite star/g3
+			distance 80
+			period 100
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
@@ -547,9 +556,10 @@ system "Terminal: Arculus"
 	arrival 700
 	departure 1000
 	habitable 700
+	haze _menu/haze-red
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/g0
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -579,7 +589,7 @@ system "Terminal: Markab"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/g8
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -609,7 +619,7 @@ system "Terminal: Wah Yoot"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/g0
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -639,7 +649,7 @@ system "Terminal: Sol Arach"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/k0
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -669,7 +679,7 @@ system "Terminal: Sol Kimek"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/k3
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -699,8 +709,12 @@ system "Terminal: Sol Saryd"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/g3
 		period 10
+		object
+			sprite star/m5
+			period 30
+			distance 30
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
@@ -729,7 +743,7 @@ system "Terminal: Mego Inito"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/f0
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -759,7 +773,7 @@ system "Terminal: Zeinar"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/m3
 		period 10
 	object
 		sprite "planet/ringworld right"
@@ -789,7 +803,7 @@ system "Terminal: Kaliptari"
 	habitable 700
 	belt 1245
 	object
-		sprite star/nova-small
+		sprite star/m3
 		period 10
 	object
 		sprite "planet/ringworld right"
