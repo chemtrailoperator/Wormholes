@@ -268,7 +268,8 @@ mission "Wormholes 1.3"
 			`	The Successors retreat back into their door and there is a general stir. A large hatch in the wall slides open revealing the passageway to the surface. "Lets go, there isn't a moment to be lost." says Chilia. Its time to head back to Mons.`
 				launch
 	on complete
-		log "Carried a dimplomatic mission at Galactic Command to and from the Successors. Treaty confirmed, wormholes engaged to the Successors."
+		log "Carried a diplomatic mission at Galactic Command to and from the Successors. Treaty confirmed, wormholes engaged to the Successors."
+		event "reveal successors wormhole"
 		conversation
 			`You land without ceremony and the members of the delegation disperse into the ring. Chilia turns to you on his way out. "Thank you for your help <last>, everything is in train now, the Quarg will handle it. You are free to go your own way and do what you please, I hope we meet again soon."`
-		event: reveal successors wormhole
+		
