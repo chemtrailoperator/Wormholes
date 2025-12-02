@@ -50,7 +50,7 @@ mission "Wormholes 1.2"
 			label forgotten
 			`	"You didn't talk to the Quarg? He said he would meet you. Oh well, the gist of it is that we are going to try to get a new Successor administration to join this galactic peace organization they have made here, and you are going to carry us to the Successors."`
 			label chilia
-			`	"That aside, your Quarg friend couldn't rendesvous with you here because he had some more pressing matters, so I was sent in his place. The Remnant have sent numerous secret exploration missions throughout the galaxy and we found the Successors a few decades ago. We haven't made contact with them yet, so this mission is especially important to us. Why don't we find something to eat while we wait for the others." Chilia leads you through long passageways in the ring until you get to a large room that seems designed specifically for humans. It looks like a large food court, except there are fewer tables and more open space on the walls. There are still at least two dozen doors leading off to who-knows-where. Chilia goes up to an automated booth, presses a few buttons, and receives what looks like perfect remnant food. "Try it yourself." he says.`
+			`	"That aside, your Quarg friend couldn't rendesvous with you here because he had some more pressing matters, so I was sent in his place. The Remnant have sent numerous secret exploration missions throughout the galaxy and we found the Successors a few decades ago. We haven't made contact with them yet, so this mission is especially important to us. Why don't we find something to eat while we wait for the others?" Chilia leads you through long passageways in the ring until you get to a large room that seems designed specifically for humans. It looks like a large food court, except there are fewer tables and more open space on the walls. There are still at least two dozen doors leading off to who-knows-where. Chilia goes up to an automated booth, presses a few buttons, and receives what looks like perfect remnant food. "Try it yourself." he says.`
 			`	You walk up to the machine and see "Authentic Remnant Cooking" in bold letters. Chilia cuts in; "There are other cuisines available, I believe the one for the rim and dirt belt is across the room."`
 			choice
 				`	(Stay at the Remnant station.)`
@@ -75,21 +75,6 @@ mission "Wormholes 1.2"
 			`	"Ah, of course, I shall lead then." He takes off at a brisk walk through the passages he took you through before until he arrives at the docking bay that holds your ship. It is a massive airlock big enough to hold multiple capital ships.`
 			`	It takes longer than you anticipated to get everyone situated on your ship, partly because of the size of the Saryd not being ideal for your compartments and hatches, but also because the Pug and the Quargs vehemently insist that they will not be berthed near each other. Chilia comes to you after it is all finished and advises you to take off immediately. "It does not do to waste a single minute when you have a Pug and a Quarg in such close proximity, after all, they are on blowing each other up terms. The fastest route is through the wormholes to Arculus, then through the Graveyard and Precursor space."`
 				accept
-<<<<<<< HEAD
-#	on enter "Ferinus"
-#		conversation
-#			`There is a loud bang in the cargo compartment.`
-#			choice
-#				`	(Ignore.)`
-#					goto end
-#				`	(Investigate.)`
-#			`You walk through your ship and hear a few more bangs on your way. You throw open the hatch to see the Quarg you have not spoken to throw a crate at the Pug, who deflects it with his staff. The Pug sticks his staff into a bale of food and slings it at the Quarg, hitting him squarely and knocking him back against the wall despite attempts to dodge. The Quarg, apparently unhurt, leaps up immediately and grabs a handful of ball bearings rolling about on the floor and launches them with baleful accuracy one by one at the Pug. After being hit several times without effect, the Pug jumps with surprising agility into another pile of crates, getting hit along the way by more bearings. One or two miss, however, hitting the hull resulting in bangs of surprising volume. The Pug drops his staff and picks up a water tank and lifts it above his head, no doubt to drop on the Quarg below.`
-#			choice
-#				`	(Intervene.)`
-#				`	(Leave.)`
-#			`You take a step but immediately slip on the dented bearings littering the floor, unfortunately Deep Sky's finest. The Pug shoves the tank back where it came from immediately and they both stand still for a few moments. "My apologies Captain, we did not mean to make such a ruckus." says the Pug. "It will not happen again." says the Quarg. They walk past you and disappear into your ship.`
-#			label end
-=======
 	on enter "Farinus"
 		conversation
 			`There is a loud bang in the cargo compartment.`
@@ -103,7 +88,6 @@ mission "Wormholes 1.2"
 				`	(Leave.)`
 			`You take a step but immediately slip on the dented bearings littering the floor, unfortunately Deep Sky's finest. The Pug shoves the tank back where it came from immediately and they both stand still for a few moments. "My apologies Captain, we did not mean to make such a ruckus." says the Pug. "It will not happen again." says the Quarg. They walk past you and disappear into your ship.`
 			label end
->>>>>>> d7c5042849e96c2337add131ef498871c857b401
 	on enter "Delia"
 		conversation
 			`You walk into the common area of the ship to see a small model sitting on a table.`

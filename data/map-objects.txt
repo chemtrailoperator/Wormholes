@@ -35,10 +35,11 @@ planet "Gate: Heutesl"
 
 planet "Gate: Ka'ch'chrai"
 	attributes "requires: galactic license"
+	
+planet "Gate: Tuur-Kella"
+	attributes "requires: galactic license"
 
 planet "Gate: Gamma Corvi"
-
-planet "Gate: Gamma Corvi Unlocked"
 
 planet "Gate: Epsilon Leonis"
 	attributes "requires: galactic license"
