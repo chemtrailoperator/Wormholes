@@ -11,10 +11,10 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-outfit "Galactic License"
-	series "Licenses"
+outfit "Galactic Keystone"
 	index 40602
-	category "Licenses"
+	category "Unique"
 	thumbnail "outfit/galacticlicense"
+	"unique" 1
 	"galactic license" 1
-	description "This small band is a piece of Yottrite-Diamond compound, that has data encoded directly to its crystalline structure. It unlocks the wormhole gates used by Galactic Command."
+	description "This small band is a piece of Yottrite-Diamond compound that has data encoded directly to its crystalline structure. It unlocks the wormhole gates used by Galactic Command when authenticated by a scan of the bearer's genetic code."

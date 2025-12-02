@@ -1,0 +1,238 @@
+mission "Wormholes 1.1"
+	landing
+	source
+		government "Republic" "Free Worlds" "Syndicate"
+	name "Called to Mons"
+	description "Report to Mons in the Olympus system."
+	destination Mons
+	clearance
+	to offer
+		has "Wormholes 0.2: done"
+	on offer
+		conversation
+			`You receive a message through your communication system. All it contains is a string of code that immediately runs and highlights the Olympus system on your map. You should probably go there immmediately.`
+				accept
+	on complete
+		conversation
+			`A tall Quarg meets you as soon as you step off your ship. "Greetings Captain <last>, thank you for coming so speedily. There is a diplomatic opportunity with the Successors that could not be missed, and, given your relationships with them in the past, you were the obvious choice. You may have noticed that theirs is the only wormhole we lack. We could build it tomorrow, indeed it is mostly complete already, but we wish to establish firm relations with the Successors first. The previous 'administration' that was opposed to our idea has been replaced by one that is much more amenable to dimplomacy. You will be part of, and carry a delegation to the Successors. You will need 10 bunks. Meet me in the spaceport when you are ready."`
+
+mission "Wormholes 1.2"		
+	priority
+	source "Mons"
+	name "Travel to the Successors"
+	description "Carry diplomats to Tuur-Aasa-Kaska in the Tuur-Kella system."
+	destination "Tuur-Aasa-Kaska"
+	clearance
+	
+	to offer 
+		has "Wormholes 1.1: done"
+	on offer
+		conversation
+			`You enter the spaceport but the Quarg who helped you is not present. There isn't any Quarg at all, even though most other species seem to be present. You are looking around in a bewildered manner when a human appears from behind you. He laughs at your shock and introduces himself. "I am Prefect Chilia of the Remnant. You may not remember me but I have seen you many times. I am the chief defense prefect, although I am handling less of that now that I am a galactic diplomat. It is good to see that you have gotten recognition for you numerous travels. Am I to understand that you are part of our diplomatic journey to the Successors?"`
+			choice
+				`	("Huh?")`
+					goto huh
+				`	("Yes, that is correct.")`
+					goto correct
+				`	("Our?")`
+			`	"Weren't you told? I am also a part of the mission."`
+				goto chilia
+			label correct
+			`	"Good! We will benefit from your experience and pilotage. Unfortunately, you will have to take a sidelines role in the negotiations because you are so new here, but there will still be somethings for you to do other than the important task of getting us through the graveyard."`
+				goto chilia
+			label huh
+			`	"Don't tell me you've forgotten already!?"`
+
+			choice
+				`	("Forgotten what?")`
+					goto forgotten
+				`	("I was just kidding.")`
+			`	"You really shouldn't joke like that. It makes people doubt your mental stability, and I know from experience how difficult that can make things."`
+				goto chilia
+			label forgotten
+			`	"You didn't talk to the Quarg? He said he would meet you. Oh well, the gist of it is that we are going to try to get a new Successor administration to join this galactic peace organization they have made here, and you are going to carry us to the Successors."`
+			label chilia
+			`	"That aside, your Quarg friend couldn't rendesvous with you here because he had some more pressing matters, so I was sent in his place. The Remnant have sent numerous secret exploration missions throughout the galaxy and we found the Successors a few decades ago. We haven't made contact with them yet, so this mission is especially important to us. Why don't we find something to eat while we wait for the others." Chilia leads you through long passageways in the ring until you get to a large room that seems designed specifically for humans. It looks like a large food court, except there are fewer tables and more open space on the walls. There are still at least two dozen doors leading off to who-knows-where. Chilia goes up to an automated booth, presses a few buttons, and receives what looks like perfect remnant food. "Try it yourself." he says.`
+			`	You walk up to the machine and see "Authentic Remnant Cooking" in bold letters. Chilia cuts in; "There are other cuisines available, I believe the one for the rim and dirt belt is across the room."`
+			choice
+				`	(Stay at the Remnant station.)`
+				`	(Check out the Dirt Belt station.)`
+			`	After navigating through multiple menus and dialogues, you receive a plate of food indistinguishable from that which you are used to. Astonishing considering that is made entirely by robots thousands of light years away from its point of origin.`
+			`	You sit down together at a comfortable little table and begin to eat. Once finished, Chilia begins speaking again. "This area you see here is just one of many devoted to the ambassadors from around the galaxy. Here you will find everything us humans will need, living areas, offices, gyms, essentially it is an apartment complex. When they have all been recruited, this will hold all 17 of the human delegates, 3 from each region plus two extras from the largest faction, which would be the Republic. These living areas are completely optional for our use, they remain ready should you decide to drop in for whatever period of time you see fit, or when there are important galactic meetings to attend, but that does not happen too often.`
+			`	"This area is off-limits to all other species, even the Quarg, and there's access from here," he points to a door, "to the main council chambers. The Drak took everything into account when they built this place, even diplomatic intimidation."`
+			choice
+				`	("Why do you know so much about this?")`
+					goto knowledge
+				`	("The Drak built all this?")`
+			`	"Not quite, the Drak just provided blueprints and resources to the Quarg and the Pug, and they built this. Each individual species helped with their own section of the ring. You will find that there are even more lavish accomodations in the part of the ring adjacent to the Sol wormhole. Most of that area is taken up by the machinery needed to operate the wormhole, but there is still huge areas left to our own design. As with this area here, only us humans have unrestricted access to it. There there is everything that we could require in an extended stay, and I reccomend you take up residence there if you come here often."`
+				goto team
+			label knowledge
+			`	"I have been part of this for quite a long time, although I only became the Remnant's chief delegate a few years ago. There is an even larger area devoted to humans in the parts of the ring adjacent to the Sol wormhole. Most of that area is taken up by the equipment necessary to operate the wormhole, but there are still huge areas available for our use. Like this here, it is restricted to all but humans. There is everything that we could require for a long stay, I reccomend you take up residence there if you make coming here a habit."`
+			label team
+			`	A light above the main entrance hallway lights up and Chilia stands. "That will be more of our teammates, I will let them in."`
+			`	He walks to the doorway and presses something on a keypad next to it. He returns to you and a few minutes later a gaggle of aliens walk into the room. Chilia beckons them over. The group consists of the Quarg you met earlier, another shorter Quarg, three Avgi wearing strange contraptions that allow them to walk, a pug carrying a rod that looks something like a peacekeeping staff except that it is far more ornate, a Saryd and two Arachi Heliarchs, and two humans. One is obviously of the Remnant, but the other looks completely normal, only he is much taller than the average.`
+			`	"These are the members of your delegation." he says dramtically. "Now that we are all here we can go to the Successors. Lead the way to your ship Captain."`
+			choice
+				`	"I really have no clue where that is."`
+			`	"Ah, of course, I shall lead then." He takes off at a brisk walk through the passages he took you through before until he arrives at the docking bay that holds your ship. It is a massive airlock big enough to hold multiple capital ships.`
+			`	It takes longer than you anticipated to get everyone situated on your ship, partly because of the size of the Saryd not being ideal for your compartments and hatches, but also because the Pug and the Quargs vehemently insist that they will not be berthed near each other. Chilia comes to you after it is all finished and advises you to take off immediately. "It does not do to waste a single minute when you have a Pug and a Quarg in such close proximity, after all, they are on blowing each other up terms. The fastest route is through the wormholes to Arculus, then through the Graveyard and Precursor space."`
+				accept
+	on enter "Ferinus"
+		conversation
+			`There is a loud bang in the cargo compartment.`
+			choice
+				`	(Ignore.)`
+					goto end
+				`	(Investigate.)`
+			`You walk through your ship and hear a few more bangs on your way. You throw open the hatch to see the Quarg you have not spoken to throw a crate at the Pug, who deflects it with his staff. The Pug sticks his staff into a bale of food and slings it at the Quarg, hitting him squarely and knocking him back against the wall despite attempts to dodge. The Quarg, apparently unhurt, leaps up immediately and grabs a handful of ball bearings rolling about on the floor and launches them with baleful accuracy one by one at the Pug. After being hit several times without effect, the Pug jumps with surprising agility into another pile of crates, getting hit along the way by more bearings. One or two miss, however, hitting the hull resulting in bangs of surprising volume. The Pug drops his staff and picks up a water tank and lifts it above his head, no doubt to drop on the Quarg below.`
+			choice
+				`	(Intervene.)`
+				`	(Leave.)`
+			`You take a step but immediately slip on the dented bearings littering the floor, unfortunately Deep Sky's finest. The Pug shoves the tank back where it came from immediately and they both stand still for a few moments. "My apologies Captain, we did not mean to make such a ruckus." says the Pug. "It will not happen again." says the Quarg. They walk past you and disappear into your ship.`
+			label end
+	on enter "Delia"
+		conversation
+			`You walk into the common area of the ship to see a small model sitting on a table.`
+			scene "thumbnail/quarg wyvern"
+			
+	on enter "Uuoru-Sossa"
+		conversation
+			`Upon entering the common area, you see that the model has been replaced by another. The delegates in the room deny any knowledge of the situation.`
+			scene "thumbnail/pug arfecta"
+	
+	on enter "Kasii-Sola"
+		conversation
+			`A new model has been placed over the pulverized remains of the Pug ship.`
+			scene "thumbnail/quarg hydra"
+
+	on enter "Oublaa-Khora"
+		conversation
+			`You are approached by the lone Pug on your ship. "Captain, I must insist that you let me berth elsewhere, I will take up residence in the cargo bay if necessary"`
+			choice
+				`	("Sounds good.")`
+					goto end
+				`	("Why?")`
+			`	"Why do you question me little human, my motivations are beyond your understanding. There are so many things that would astonish your race that are mere table talk to us." He leans down closer, you never realized quite how tall this particular Pug was until now. "Do not let it go to your head that you were selected to represent your race. I say again, my motivations are beyond your understanding. I will be in the cargo compartment if others look for me." He turns around and strides out the door and down the passage like a large beetle.` 
+			label end
+	on complete
+		log "People" "Chilia" "Chilia has been a galactic diplomat for quite some time now, taking up the task long before you have. He helped orchestrate the Human side of the coalition."
+		conversation
+			`"Forewarned of your arrival, several medium warships and a large number of smaller ones take off and escort your ship in a complex formation. Once landed on a bare sheet of rock protruding out of an ocean, a large group of Successors approaches. Chilia, leading the group, addresses the front Successor. "Greetings, esteemed rulers, thank you for accepting our delegation."`
+			`	Waves of color traverse the leader of the group for a few seconds before it speaks. "The High Houses of the Successors thank thee as well. Please enter with us so that we may begin negotiations in a more comfortable environment." A large doorway slides open in the rock, and for a moment it seems as if you'll be going underwater. Thankfully, the door leads to a steeply inclined passageway with another door at the bottom, which in turn opens into a wide room. The leader faces about once inside and begins speaking again. "The High Houses have determined that it would be more advisable to here each delegates proposition separately. Is this acceptable?" "It will have to be." Chlia replies. "Let us here your pitch first then." Chilia follows the group out of the room through a different door and you are left alone with the rest of the group.`
+			`	The Saryd and the two Arachi move off into a corner while the Pug and the Quargs find opposite corners to wait in. The Remnant man goes off in search of facilities and the other human finds sits down against a wall. The Avgi remove themselves from their walking suits and alight on one of the many odd prominences in the walls.`
+			label strike
+			choice
+				`	(Strike up a conversation with the Pug.)`
+					goto pug
+				`	(Strike up a conversation with the Quargs.)`
+					goto quargs
+				`	(Strike up a conversation with the other human.)`
+					goto human
+				`	(Strike up a conversation with the Avgi.)`
+			`	You try to contact the Avgi but they either can't here you on their perches or are deliberately `
+				goto returned
+			label pug
+			`	"What do you want from me little human?"`
+			choice
+				`	("Oh, nothing, just checking around.")`
+				`	("Why are you such a jerk to everyone around you all the time?")`
+				`	("Why were you and the Quarg fighting in the cargo compartment?")`
+				`	("What's your name?")`
+			`	The pug turns away without saying anything and walks away. It seems the conversation is over.`
+			choice
+				`	(Strike up a conversation with the other human.)`
+					goto human
+				`	(Strike up a conversation with the Avgi.)`
+					goto avgi
+				`	(Strike up a conversation with the Quargs.)`
+					goto quargyespug
+				`	(Sit down and shut up.)`
+					goto sit
+			label quargs
+			` 	"Hello human, how can we assist you?"`
+			choice
+				`	("Oh nothing, I was just checking around.")`
+					goto quargscheck
+				`	("I have some questions.")`
+			label quargquestions
+			`	"Ask, and we shall answer to the best of our ability."`
+			choice
+				`	("How do you know my language?')`
+					goto quargquestlanguage
+				`	("Why is that Pug angry?")`
+					goto quargquestpug
+				`	("I have no more questions.")`
+					goto quargscheck
+				
+			label quargquestlanguage
+			`	"We actually do not, none of us do, it is a feature of the Galactic License. Even we do not know how it functions, but it translates whatever you hear into your own tongue without a millisecond of delay or any loss of clarity."`
+				goto quargquestions
+			label quargquestpug
+			`	"The Pug are an enigmatic species, and a proud one, they see endeavors like these as great condescensions. As such, any involvement is likely to be irratable, and the Pug are not a famously patient species. I do not greatly understand why the Pug consented to this galactic diplomacy project. They can gain nothing from it, and there are rumors that the Pug could defy the Drak if necessary."`
+			choice
+				`	("Could the Pug really fight the Drak if they wanted to?")`
+			`	"That is unknown. They certainly possess technology that is well above their current position in the galaxy. I am an expert in diplomacy, not war, but the devices used to create the wormholes and maintain them could probably be turned into weapons of unthinkable power. Let us hope that they never have call to use them."`
+				goto quargquestions			
+			label quargscheck
+			`	"Well then, there is nothing we can do for you."`
+				goto sit
+			label quargyespug
+			`	The Quarg you first talked with back in the ring speaks up as you approach. "I see you did not get the response you desired from the Pug. I cannot say that it suprises me."`
+			choice
+				`	("Are they always like that?")`
+				`	("Why doesn't it engage in conversation?")`
+			`	"The Pug are an enigmatic species, and a proud one, they see endeavors like these as great condescensions. As such, any involvement is likely to be irratable, and the Pug are not a famously patient species. I do not greatly understand why the Pug consented to this galactic diplomacy project. They can gain nothing from it, and there are rumors that the Pug could defy the Drak if necessary."`
+			choice
+				`	("Could the Pug really fight the Drak if they wanted to?")`
+			`	"That is unknown. They certainly possess technology that is well above their current position in the galaxy. I am an expert in diplomacy, not war, but the devices used to create the wormholes and maintain them could probably be turned into weapons of unthinkable power. Let us hope that they never have call to use them."`
+				goto sit
+			label avgi
+			`	The Avgi appear to have fallen asleep on their perches.`
+			choice
+				`	(Strike up a conversation with the other human.)`
+					goto human
+				`	(Strike up a conversation with the Quargs.)`
+					goto quargs
+				`	(Sit down and shut up.)`
+					goto sit
+			label sit
+			`	"You walk away and take a seat against the wall to wait for something to happen. You see the man across the room eyeing you."`
+			choice
+				`	(Approach him.)`
+				`	(Ignore.)`
+			`	Before you can take action the man comes over and sits next to you.`
+				goto human
+			label human
+			`	He sticks out his hand, you shake it, and he begins. "We've seen much of each other over the past week but I haven't had the opportunity to introduce myself properly. I am Stephen Sills, assistant representative from the Republic. I must say I was glad to see you sitting with Chilia back on the ring. I hadn't seen any of my kind for weeks, and to see you out of all of them." Upon closer inspection he proves to be a much younger man than you thought would be holding such a position. "How do you know who I am?" you ask.`
+			`	"Oh, yes." he laughs dryly, "you wouldn't know. My father was Sawyer, the Syndicate nuclear engineer that was such a stir in the Civil War. Remember? He defected and spread the word that the Syndicate was making nukes. He told me all about you when he got home. That very day I went and looked you up. You may not know it, but there were a few articles on you at the time circulating around because of your decisive involvement in the war, and there are dozens more today. What I saw in those articles, a broke new pilot becoming a war hero through his grit and daring, inspired me to become a pilot as well." He shifts a bit and continues.`
+			`	"I wanted to be a pilot and my conditions couldn't have been better. After the war, the Syndicate gave my father a large sum of money as an apology and we moved into the Deep. After his experiences in the war, my father couldn't settle back into normal life, he was always looking over his shoulder and jumping at random noises. He was also paranoid about the Syndicate, justly enough I suppose, but he took it to an extreme that made it difficult to live with him. We parted on good terms, he gave me a chunk of money and I used it to change my name, buy a freighter, and start a business as a pilot. I would have bought a warship, but my father wouldn't allow it, he said it was too dangerous.`
+			`	My business thrived, and it is now worth several billion credits, but I soon got bored of it and started exploring. I found alien civilizations, made friends with a few, and outfitted a ship to my needs. Pretty soon I was hardly ever in Human space, but I had a run in with the Korath, my fancy ship was destroyed, and I only escaped by about an inch, quite literally. Then I got captured by pirates on my way back and spent a few months as a slave. I escaped when the ship I was on was disabled and I went back to my business which hadn't done well in my absence and I settled down to manage it a little more thoroughly. Over the years I built another, better ship and I still use it often, but I wasn't ever going to risk my skin for the fun of it again."`
+			`	"So how did you get here?"`
+			`	"Same way as you did I assume, I was drugged and taken away to some shed and talked to by some man and then a Quarg so I said I'd do it and here I am. They even helped me set up a system so I can communicate with my businesss managers from my office back on Mons."`
+			`	You talk together for a while on ships, their design and defence, business, politics, and many other topics.`
+			label returned
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
