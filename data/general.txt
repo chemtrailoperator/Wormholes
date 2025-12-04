@@ -22,8 +22,8 @@ outfit "Galactic Keystone"
 event "reveal successors wormhole"
 	planet "Gate: Tuur-Kella"
 		sprite planet/jumpring
-		remove "requires: wormhole locker"
+		remove attributes "requires: wormhole locker"
 	system "Hub: Tuur-Kella"
 		remove hidden
 		
-color "Invisible Wormhole" 0 0 0 0
+color "Drak Wormhole" 1 1 1

@@ -16,10 +16,9 @@ planet "Gate: Sol"
 
 wormhole "Gate: Sol"
 	"display name" "Gate: Sol"
-	mappable
 	link "Hub: Sol" Olympus
 	link Olympus "Hub: Sol"
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 
 planet "Gate: Ya Hai"
 	attributes "requires: galactic license"
@@ -27,10 +26,9 @@ planet "Gate: Ya Hai"
 	
 wormhole "Gate: Ya Hai"
 	"display name" "Gate: Ya Hai"
-	mappable
 	link "Hub: Ya Hai" Olympus
 	link Olympus "Hub: Ya Hai"
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 	
 planet "Gate: Ki War Ek"
 	attributes "requires: galactic license"
@@ -38,10 +36,9 @@ planet "Gate: Ki War Ek"
 	
 wormhole "Gate: Ki War Ek"
 	"display name" "Gate: Ki War Ek"
-	mappable
 	link "Hub: Ki War Ek" Olympus
 	link Olympus "Hub: Ki War Ek"
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 
 planet "Gate: Concerto"
 	attributes "requires: galactic license"
@@ -49,10 +46,9 @@ planet "Gate: Concerto"
 	
 wormhole "Gate: Concerto"
 	"display name" "Gate: Concerto"
-	mappable
 	link "Hub: Concerto" Olympus
 	link Olympus "Hub: Concerto"
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 
 planet "Gate: Kashikt"
 	attributes "requires: galactic license"
@@ -60,10 +56,9 @@ planet "Gate: Kashikt"
 	
 wormhole "Gate: Kashikt"
 	"display name" "Gate: Kashikt"
-	mappable
 	link Olympus "Hub: Kashikt"
 	link "Hub: Kashikt" Olympus
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 
 planet "Gate: Erabu Lemeta"
 	attributes "requires: galactic license"
@@ -71,10 +66,9 @@ planet "Gate: Erabu Lemeta"
 	
 wormhole "Gate: Erabu Lemeta"
 	"display name" "Gate: Erabu Lemeta"
-	mappable
 	link "Hub: Erabu Lemeta" Olympus
 	link Olympus "Hub: Erabu Lemeta"
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 
 planet "Gate: Heutesl"
 	attributes "requires: galactic license"
@@ -82,10 +76,9 @@ planet "Gate: Heutesl"
 	
 wormhole "Gate: Heutesl"
 	"display name" "Gate: Heutesl"
-	mappable
 	link Olympus "Hub: Heutesl"
 	link "Hub: Heutesl" Olympus
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 
 planet "Gate: Ka'ch'chrai"
 	attributes "requires: galactic license"
@@ -93,31 +86,28 @@ planet "Gate: Ka'ch'chrai"
 	
 wormhole "Gate: Ka'ch'chrai"
 	"display name" "Gate: Ka'ch'chrai"
-	mappable
 	link Olympus "Hub: Ka'ch'chrai"
 	link "Hub: Ka'ch'chrai" Olympus
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 	
 planet "Gate: Tuur-Kella"
-	attributes "requires: galactic license"
+	attributes "requires: galactic license" "requires: wormhole locker"
 	wormhole "Gate: Tuur-Kella"
 	
 wormhole "Gate: Tuur-Kella"
 	"display name" "Gate: Tuur-Kella"
-	mappable
 	link Olympus "Hub: Tuur-Kella"
 	link "Hub: Tuur-Kella" Olympus
-	color "Invisible Wormhole" "requires: wormhole locker"
+	color "Drak Wormhole" 
 
 planet "Gate: Gamma Corvi"
 	wormhole "Gate: Gamma Corvi"
 	
 wormhole "Gate: Gamma Corvi"
 	"display name" "Gate: Gamma Corvi"
-	mappable
 	link "Hub: Sol" "Terminal: Gamma Corvi"
 	link "Terminal: Gamma Corvi" "Hub: Sol"
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 
 planet "Gate: Epsilon Leonis"
 	attributes "requires: galactic license"
@@ -125,10 +115,9 @@ planet "Gate: Epsilon Leonis"
 	
 wormhole "Gate: Epsilon Leonis"
 	"display name" "Gate: Epsilon Leonis"
-	mappable
 	link "Terminal: Epsilon Leonis" "Hub: Sol"
 	link "Hub: Sol" "Terminal: Epsilon Leonis"
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 
 planet "Gate: Arculus"
 	attributes "requires: galactic license"
@@ -136,10 +125,9 @@ planet "Gate: Arculus"
 	
 wormhole "Gate: Arculus"
 	"display name" "Gate: Arculus"
-	mappable
 	link "Terminal: Arculus" "Hub: Sol"
 	link "Hub: Sol" "Terminal: Arculus"
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 
 planet "Gate: Markab"
 	attributes "requires: galactic license"
@@ -147,10 +135,9 @@ planet "Gate: Markab"
 	
 wormhole "Gate: Markab"
 	"display name" "Gate: Markab"
-	mappable
 	link "Terminal: Markab" "Hub: Sol"
 	link "Hub: Sol" "Terminal: Markab"
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 
 planet "Gate: Wah Yoot"
 	attributes "requires: galactic license"
@@ -158,76 +145,69 @@ planet "Gate: Wah Yoot"
 	
 wormhole "Gate: Wah Yoot"
 	"display name" "Gate: Wah Yoot"
-	mappable
 	link "Terminal: Wah Yoot" "Hub: Ya Hai"
 	link "Hub: Ya Hai" "Terminal: Wah Yoot"
-	color "Invisible Wormhole"
+	color "Drak Wormhole"
 
 planet "Gate: Sol Kimek"
 	attributes "requires: galactic license"
 	wormhole "Gate: Sol Kimek"
 	
 wormhole "Gate: Sol Kimek"
-	"display name" "Gate: "
-	mappable
-	link
-	link
-	color "Invisible Wormhole"
+	"display name" "Gate: Sol Kimek"
+	link "Terminal: Sol Kimek" "Hub: Ki War Ek"
+	link "Hub: Ki War Ek" "Terminal: Sol Kimek"
+	color "Drak Wormhole"
 
 planet "Gate: Sol Saryd"
 	attributes "requires: galactic license"
-	wormhole "Gate: "
+	wormhole "Gate: Sol Saryd"
 	
-wormhole "Gate: "
-	"display name" "Gate: "
-	mappable
-	link
-	link
-	color "Invisible Wormhole"
+wormhole "Gate: Sol Saryd"
+	"display name" "Gate: Sol Saryd"
+	link "Terminal: Sol Saryd" "Hub: Ki War Ek"
+	link "Hub: Ki War Ek" "Terminal: Sol Saryd"
+	color "Drak Wormhole"
 
 planet "Gate: Sol Arach"
 	attributes "requires: galactic license"
-	wormhole "Gate: "
+	wormhole "Gate: Sol Arach"
 	
-wormhole "Gate: "
-	"display name" "Gate: "
-	mappable
-	link
-	link
-	color "Invisible Wormhole"
+wormhole "Gate: Sol Arach"
+	"display name" "Gate: Sol Arach"
+	link "Terminal: Sol Arach" "Hub: Ki War Ek"
+	link "Hub: Ki War Ek" "Terminal: Sol Arach"
+	color "Drak Wormhole"
 
 planet "Gate: Mego Inito"
 	attributes "requires: galactic license"
-	wormhole "Gate: "
+	wormhole "Gate: Mego Inito"
 	
-wormhole "Gate: "
-	"display name" "Gate: "
-	mappable
-	link
-	link
-	color "Invisible Wormhole"
+wormhole "Gate: Mego Inito"
+	"display name" "Gate: Mego Inito"
+	link "Terminal: Mego Inito" "Hub: Erabu Lemeta"
+	link "Hub: Erabu Lemeta" "Terminal: Mego Inito"
+	color "Drak Wormhole"
 
 planet "Gate: Zeinar"
 	attributes "requires: galactic license"
-	wormhole "Gate: "
+	wormhole "Gate: Zeinar"
 	
-wormhole "Gate: "
-	"display name" "Gate: "
-	mappable
-	link
-	link
-	color "Invisible Wormhole"
+wormhole "Gate: Zeinar"
+	"display name" "Gate: Zeinar"
+	link "Terminal: Zeinar" "Hub: Heutesl"
+	link "Hub: Heutesl" "Terminal: Zeinar"
+	color "Drak Wormhole"
 
 planet "Gate: Kaliptari"
 	attributes "requires: galactic license"
-	wormhole "Gate: "
+	wormhole "Gate: Kaliptari"
 	
-wormhole "Gate: "
-	"display name" "Gate: "
-	mappable
-	link
-	link
-	color "Invisible Wormhole"
+wormhole "Gate: Kaliptari"
+	"display name" "Gate: Kaliptari"
+	link "Terminal: Kaliptari" "Hub: Ka'ch'chrai"
+	link "Hub: Ka'ch'chrai" "Terminal: Kaliptari"
+	color "Drak Wormhole"
 
 planet Mons
 	attributes command
