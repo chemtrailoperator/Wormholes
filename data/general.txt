@@ -26,4 +26,4 @@ event "reveal successors wormhole"
 	system "Hub: Tuur-Kella"
 		remove hidden
 		
-color "Drak Wormhole" 1 1 1
+color "Drak Wormhole" 1 0.5 1

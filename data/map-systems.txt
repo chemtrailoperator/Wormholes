@@ -107,7 +107,7 @@ system "Olympus"
 		period 349.820
 		offset 260
 	object "Gate: Tuur-Kella"
-		sprite planet/jumpring-unpowered
+		sprite planet/jumpring
 			scale 0.5
 		distance 811
 		period 349.820
